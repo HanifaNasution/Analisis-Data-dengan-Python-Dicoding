@@ -5,8 +5,8 @@ import seaborn as sns
 from datetime import datetime
 import datetime as dt
 
-all_df = pd.read_csv('all_data.csv')
-
+url = "https://drive.google.com/file/d/1nWPiPapms0rdDR4_u0Cu_1pSyaiquQvo/view?usp=drive_link"
+all_df = pd.read_csv(url)
 
 
 # change type str/obj -> datetime
